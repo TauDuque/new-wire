@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./Season.css";
 import "../App.css";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import data from "./dataS1";

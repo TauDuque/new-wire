@@ -1,9 +1,8 @@
-import "./App.css";
-import Season1 from "./Seasons/Season1";
-import Season2 from "./Seasons/Season2";
-import Season3 from "./Seasons/Season3";
-import Season4 from "./Seasons/Season4";
-import Season5 from "./Seasons/Season5";
+import Season1 from "../Seasons/Season1";
+import Season2 from "../Seasons/Season2";
+import Season3 from "../Seasons/Season3";
+import Season4 from "../Seasons/Season4";
+import Season5 from "../Seasons/Season5";
 
 const Sections = () => {
   return (
