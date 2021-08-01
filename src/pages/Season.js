@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Wrapper } from "../styles/SeasonsStyles";
+import { omar_cartoon, string_avon } from "../assets";
 
 const Season = () => {
   return (
@@ -33,9 +34,31 @@ const Season = () => {
           </div>
         </div>
         <div className="second-col">
-          <img src="https://wallpapercave.com/wp/wp1941999.jpg" alt="hero" />
+          <div className="text-container">
+            <img src={omar_cartoon} alt="Omar" />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+              tenetur ex voluptate harum, hic facilis ipsa temporibus vel quas
+              sunt cumque sapiente magnam perferendis, soluta sed illum quasi
+              iste minima? Ipsam corrupti saepe eveniet magni aspernatur atque
+              sunt laborum necessitatibus nisi sit, nemo deserunt veniam
+              consequuntur eos, ea dolore. Vel nemo quod inventore accusantium
+              corporis ad, quia harum corrupti unde dolore ipsum cum nobis
+              laboriosam numquam consequuntur nostrum deserunt dolor optio ipsa
+              neque saepe iusto magnam ullam ex. Ducimus culpa, est, officia
+              architecto consectetur harum dolore sequi molestiae eligendi
+              recusandae quas accusamus dolorem tempore deserunt, sunt fugiat.
+              Perferendis vitae, expedita esse doloribus sed porro amet ipsa,
+              doloremque nesciunt reiciendis distinctio eos excepturi dolorum
+              quaerat quisquam voluptas nemo quo voluptatum dignissimos..
+            </p>
+            <img src={string_avon} alt="" />
+          </div>
         </div>
         <div className="third-col">
+          <img src="https://wallpapercave.com/wp/wp1941999.jpg" alt="hero" />
+        </div>
+        <div className="fourth-col">
           <div className="second-text">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quia
@@ -57,12 +80,70 @@ const Season = () => {
             />
           </div>
         </div>
-        <div className="fourth-col">
+        <div className="fifth-col">
+          <h2>
+            personagens <br /> principais
+          </h2>
+        </div>
+        <div className="sixth-col">
+          <div className="img-container">
+            <img
+              src="https://www.hivplusmag.com/sites/default/files/2017/03/17/michael-kevin-darnall_omar_hbo-copy.jpg"
+              alt="wire"
+            />
+            <img
+              src="https://www.sbs.com.au/guide/sites/sbs.com.au.guide/files/styles/body_image/public/lance_reddick_the_wire.jpg?itok=WeF6y8fa&mtime=1506310978"
+              alt=""
+            />
+            <img
+              src="https://www.sbs.com.au/guide/sites/sbs.com.au.guide/files/styles/body_image/public/lance_reddick_the_wire.jpg?itok=WeF6y8fa&mtime=1506310978"
+              alt=""
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+              cumque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+              cumque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+              cumque.
+            </p>
+            <img
+              src="https://www.sbs.com.au/guide/sites/sbs.com.au.guide/files/styles/body_image/public/lance_reddick_the_wire.jpg?itok=WeF6y8fa&mtime=1506310978"
+              alt=""
+            />
+            <img
+              src="https://www.sbs.com.au/guide/sites/sbs.com.au.guide/files/styles/body_image/public/lance_reddick_the_wire.jpg?itok=WeF6y8fa&mtime=1506310978"
+              alt=""
+            />
+
+            <img
+              src="https://www.sbs.com.au/guide/sites/sbs.com.au.guide/files/styles/body_image/public/lance_reddick_the_wire.jpg?itok=WeF6y8fa&mtime=1506310978"
+              alt=""
+            />
+            <p className="second-row-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+              cumque.
+            </p>
+            <p className="second-row-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+              cumque.
+            </p>
+            <p className="second-row-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+              cumque.
+            </p>
+          </div>
+        </div>
+        <div className="seventh-col">
           <h2>
             season <br /> finale
           </h2>
         </div>
-        <div className="fifth-col">
+        <div className="eighth-col">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
             voluptate provident corporis, velit fugiat commodi voluptatem
