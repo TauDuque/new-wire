@@ -33,7 +33,10 @@ const Season = () => {
     return <Loading />;
   }
 
-  const { temporada, plot, hero_img, final, images } = single_season;
+  const { temporada, plot, hero_img, main_plot, third_plot, final, images } =
+    single_season;
+
+  console.log(plot, main_plot, third_plot);
 
   if (single_season) {
     return (
@@ -84,7 +87,11 @@ const Season = () => {
                 excepturi dolorum quaerat quisquam voluptas nemo quo voluptatum
                 dignissimos..
               </p>
-              <img src={string_avon} alt="" />
+              <img
+                src={string_avon}
+                alt="icon"
+                style={{ height: "367px", width: "280px" }}
+              />
             </div>
           </div>
           <div className="third-col">
@@ -125,7 +132,6 @@ const Season = () => {
               <p>{images && images[4].description}</p>
               <img src={images && images[5].image} alt="" />
               <img src={images && images[6].image} alt="" />
-
               <img src={images && images[7].image} alt="" />
               <p className="second-row-text">
                 {images && images[5].description}

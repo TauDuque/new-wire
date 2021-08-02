@@ -60,7 +60,6 @@ const AppProvider = ({ children }) => {
     try {
       const response = await api.get(`seasons/${id}/images`);
       const single_season = await response.data;
-      console.log(single_season);
       dispatch({ type: SINGLE_SEASON_DATA, payload: single_season });
     } catch (error) {
       console.log(error);
