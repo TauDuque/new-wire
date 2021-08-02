@@ -1,8 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
-import MenuBar from "./components/MenuBar";
-import Overlay from "./components/Overlay";
-import Sections from "./components/Sections";
+import { MenuBar, Loading, Overlay } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { Home, Season } from "./pages";
@@ -10,9 +8,19 @@ import { Home, Season } from "./pages";
 function App() {
   return (
     <div>
-      <Overlay />
-      <MenuBar />
-      <Season />
+      <Router>
+        <Overlay />
+        <MenuBar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/season">
+            <Season />
+          </Route>
+          <Route exact path="/season/:id" children={<Season />} />
+        </Switch>
+      </Router>
     </div>
   );
 }

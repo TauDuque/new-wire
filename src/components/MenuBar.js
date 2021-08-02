@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Wrapper } from "../styles/MenubarStyles";
-import { useGLobalContext } from "../context";
+import { useGlobalContext } from "../context";
 
 const MenuBar = () => {
-  const { is_overlay_open, openOverlay, closeOverlay } = useGLobalContext();
+  const { is_overlay_open, openOverlay, closeOverlay } = useGlobalContext();
 
   return (
     <Wrapper>

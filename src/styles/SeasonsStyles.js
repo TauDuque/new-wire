@@ -26,7 +26,7 @@ export const Wrapper = styled.section`
   .main-img img,
   .fourth-col img {
     width: 295px;
-    box-shadow: var(--wine-shadow);
+    box-shadow: var(--white-shadow-2);
   }
   .first-text,
   .second-text,
@@ -45,6 +45,27 @@ export const Wrapper = styled.section`
   .seventh-col,
   .eighth-col {
     flex-direction: column;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-container img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    height: 175px;
+    width: 115px;
+  }
+
+  .text-container p {
+    color: var(--clr-white-smoke);
+    line-height: 1.2rem;
+    text-align: start;
+    padding: 0 80px 0 25px;
   }
 
   .third-col img {
@@ -85,6 +106,7 @@ export const Wrapper = styled.section`
     width: 100%;
     display: flex;
     justify-content: center;
+    box-shadow: var(--white-shadow);
   }
 
   .img-container p {
@@ -128,6 +150,7 @@ export const Wrapper = styled.section`
     .third-col img {
       height: 205px;
     }
+
     .text-container {
       display: grid;
       grid-template-columns: 1fr 2fr 1fr;
@@ -141,6 +164,7 @@ export const Wrapper = styled.section`
 
     .text-container img {
       height: 350px;
+      width: 220px;
     }
 
     .text-container p {
@@ -184,11 +208,12 @@ export const Wrapper = styled.section`
     }
     .img-container img {
       height: 250px;
-      width: 325px;
+      width: 100%;
       display: flex;
       justify-content: center;
     }
     .img-container p {
+      text-align: center;
       font-size: 15px;
     }
     .second-row-text {

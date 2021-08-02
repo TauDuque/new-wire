@@ -74,7 +74,7 @@ export const Wrapper = styled.section`
   }
 
   .about-text {
-    margin-top: 45px;
+    margin-top: 40px;
   }
 
   .about-text p {
